@@ -1,9 +1,12 @@
+import Header from "./components/Layout/Header"
+import Home from "./page/Home"
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header/>
+      <Home/>
+    </>
   )
 }
 

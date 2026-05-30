@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120">
+  <!-- Car icon -->
+  <g transform="translate(18, 18)">
+    <!-- Car body -->
+    <rect x="0" y="38" width="80" height="28" rx="6" fill="#D85A30"/>
+    <!-- Car roof -->
+    <path d="M14 38 L22 16 Q25 10 32 10 L58 10 Q65 10 68 16 L76 38 Z" fill="#D85A30"/>
+    <!-- Windshield -->
+    <path d="M28 38 L34 18 Q36 13 41 13 L49 13 Q54 13 56 18 L62 38 Z" fill="#fff" opacity="0.25"/>
+    <!-- Left wheel -->
+    <circle cx="18" cy="66" r="13" fill="#1a1a1a"/>
+    <circle cx="18" cy="66" r="7" fill="#fff"/>
+    <circle cx="18" cy="66" r="3" fill="#D85A30"/>
+    <!-- Right wheel -->
+    <circle cx="62" cy="66" r="13" fill="#1a1a1a"/>
+    <circle cx="62" cy="66" r="7" fill="#fff"/>
+    <circle cx="62" cy="66" r="3" fill="#D85A30"/>
+    <!-- Headlight -->
+    <rect x="0" y="44" width="12" height="8" rx="3" fill="#FFD580"/>
+    <!-- Taillight -->
+    <rect x="68" y="44" width="12" height="8" rx="3" fill="#ff6b6b"/>
+    <!-- Door line -->
+    <line x1="40" y1="40" x2="40" y2="60" stroke="#C04A22" stroke-width="1.5"/>
+  </g>
+
+  <!-- Text: Rent a Car -->
+  <text x="118" y="52" font-family="Georgia, serif" font-weight="700" font-size="38" fill="#1a1a1a" letter-spacing="-1">Rent</text>
+  <text x="118" y="95" font-family="Georgia, serif" font-weight="400" font-size="28" fill="#D85A30" letter-spacing="2">a Car</text>
+
+  <!-- Accent line -->
+  <rect x="118" y="100" width="160" height="3" rx="1.5" fill="#D85A30" opacity="0.25"/>
+</svg>
