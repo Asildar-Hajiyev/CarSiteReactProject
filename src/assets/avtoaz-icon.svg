@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#D85A30"/>
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="#C04A22"/>
+  <rect width="512" height="512" rx="112" fill="#D85A30"/>
+
+  <!-- Car body -->
+  <rect x="96" y="270" width="320" height="90" rx="14" fill="#fff"/>
+  <!-- Car roof -->
+  <path d="M160 270 L185 190 Q192 174 210 174 L302 174 Q320 174 327 190 L352 270 Z" fill="#fff"/>
+
+  <!-- Windshield -->
+  <path d="M198 270 L218 204 Q222 194 232 194 L280 194 Q290 194 294 204 L314 270 Z" fill="#D85A30" opacity="0.35"/>
+
+  <!-- Left wheel arch -->
+  <rect x="96" y="320" width="96" height="40" rx="6" fill="#C04A22"/>
+  <!-- Right wheel arch -->
+  <rect x="320" y="320" width="96" height="40" rx="6" fill="#C04A22"/>
+
+  <!-- Left wheel -->
+  <circle cx="152" cy="358" r="42" fill="#1a1a1a"/>
+  <circle cx="152" cy="358" r="26" fill="#fff"/>
+  <circle cx="152" cy="358" r="10" fill="#D85A30"/>
+
+  <!-- Right wheel -->
+  <circle cx="360" cy="358" r="42" fill="#1a1a1a"/>
+  <circle cx="360" cy="358" r="26" fill="#fff"/>
+  <circle cx="360" cy="358" r="10" fill="#D85A30"/>
+
+  <!-- Headlight left -->
+  <rect x="96" y="282" width="36" height="18" rx="6" fill="#FFD580"/>
+  <!-- Taillight right -->
+  <rect x="380" y="282" width="36" height="18" rx="6" fill="#ff6b6b"/>
+
+  <!-- Door line -->
+  <line x1="256" y1="274" x2="256" y2="352" stroke="#C04A22" stroke-width="2.5"/>
+
+  <!-- "AZ" text under car -->
+  <text x="256" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="52" fill="#fff" letter-spacing="4">AZ</text>
+</svg>
